@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Cisor Game</title>
+    <link rel="stylesheet" href="css/Rock.css"
+</head>
+<body >
+    <div class="header">
+        <strong>ROCK PAPER SCISSORS</strong>
+    </div>
+    <div class="play">
+        <div class="one">
+            <div class="t1" id="roundPoint">
+                Choose your weapon To start
+            </div>
+            <div class="t1" id="gamePoint">
+                First to score 5 points wins the game
+            </div>
+        </div>
+        <div class="two">
+            <div class="t2">
+                <div class="pchoice">
+                    <img src="img/int.jpg">
+                </div>
+                <div class="playerScore" id="playerText">
+                    Player: 
+                </div> 
+            </div>
+            <div class="t2">
+                <div class="compchoice">
+                    <img src="img/int.jpg"> 
+                </div>
+                <div class="compScore" id="comp">
+                    Computer:  
+                </div>
+            </div>
+        </div>
+            <div >
+                    <button class="but" onclick="winner('ROCK')" >ROCK</button>
+                    <button class="but" onclick="winner('PAPER')" >PAPER</button>
+                    <button class="but" onclick="winner('SCISSOR')" >SCISSOR</button>
+
+            </div>
+    </div>
+
+    <div class="footer">
+        Copyright 2024 OscarDaou
+    </div>
+    <script src="rps.js"></script>
+</body>
+</html>
